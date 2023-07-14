@@ -1,21 +1,29 @@
 import Image from 'next/image'
 import Link from 'next/link';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from 'react-icons/fa';
 import Tecnologia from './components/tecnologia';
 import Projeto from './components/projeto';
 
 export default function Home() {
   return (
     <>
-  <div className="py-16 px-8 text-center bg-purple-700 rounded-2xl m-5 ">
-    <h1 className="text-5xl font-bold mb-4">Bem-vindo ao meu Portfólio</h1>
-    <p className="text-3xl font-bold">Jonathan Henrique Programador Full-Stack Junior</p>
-    <div className='space-x-3'>
-    <a href="mailto:jonathanperoziti@gmail.com" className="mt-8 inline-block bg-red-600 hover:bg-red-800 text-white py-2 px-9 rounded-lg"><FaEnvelope size={32}/></a>
-    <a href="https://www.linkedin.com/in/jonathan-henrique-923541242" className="mt-8 inline-block bg-blue-600 hover:bg-blue-800 text-white py-2 px-9 rounded-lg"><FaLinkedin size={32}/></a>
-    <a href="https://github.com/jhowk14" className="mt-8 inline-block bg-black hover:bg-gray-700 text-white py-2 px-9 rounded-lg"><FaGithub size={32}/></a>
+  <div className="py-16 px-8 text-center flex justify-center space-x-80 bg-purple-700 rounded-2xl m-5 ">
+    <div >
+      <h1 className="text-5xl font-bold mb-4">Bem-vindo ao meu Portfólio</h1>
+      <p className="text-3xl font-bold">Jonathan Henrique Programador Full-Stack Junior</p>
+      <div className='space-x-3'>
+      <a href="https://www.instagram.com/jhow.tech/" className="mt-8 inline-block bg-red-500 hover:bg-red-800 text-white py-2 px-9 rounded-lg"><FaInstagram size={32}/></a>
+      <a href="mailto:jonathanperoziti@gmail.com" className="mt-8 inline-block bg-red-600 hover:bg-red-800 text-white py-2 px-9 rounded-lg"><FaEnvelope size={32}/></a>
+      <a href="https://www.linkedin.com/in/jonathan-henrique-923541242" className="mt-8 inline-block bg-blue-600 hover:bg-blue-800 text-white py-2 px-9 rounded-lg"><FaLinkedin size={32}/></a>
+      <a href="https://github.com/jhowk14" className="mt-8 inline-block bg-black hover:bg-gray-700 text-white py-2 px-9 rounded-lg"><FaGithub size={32}/></a>
+      </div>
+    </div>
+    <div className="rounded-full float-right mr-4">
+      <Image src="/images/perfil.png" alt="WhatsApp" width={200} height={200} />
     </div>
   </div>
+  
+
 
   <section className="py-16 px-8 text-gray-600">
     <h2 className="text-3xl font-bold mb-8 text-gray-100 justify-center flex">Principais Projetos</h2>
