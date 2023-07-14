@@ -2,7 +2,7 @@ export default function about(){
     return (
         <div className="flex justify-center">
         <div className="py-16 text-gray-200 px-8 w-8/12 text-center bg-purple-700 rounded-2xl m-10">
-        <p  className="text-4xl leading-8 text-center sm:text-left sm:leading-loose md:text-right md:leading-12">
+        <p  className="text-4xl leading-8 text-center sm:text-left sm:leading-loose md:text-center md:leading-12">
         <span className="text-white font-bold">Ola meu nome é Jonathan Henrique Perozi Lourenço</span> e entrei no mundo da programação há menos de dois anos, tenho me dedicado incansavelmente ao aprimoramento das minhas habilidades. Possuo certificados de técnico em redes e hardware, programador, programador Python e Django, todos obtidos pelo SENAC SP Catanduva. Além disso, concluí um curso de redes pela Cisco Net Academy, o que me proporcionou uma base sólida nessa área.
 
 Ao longo do tempo, adquiri uma sólida experiência em Python e seus derivados, permitindo-me desenvolver aplicações web robustas e eficientes. Um exemplo disso é a criação de um site modelo para uma churrascaria/açougue utilizando Django e Python, com o PostgreSQL como banco de dados. Esse projeto demonstrou minha habilidade em desenvolver soluções completas e funcionais.
