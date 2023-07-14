@@ -54,9 +54,6 @@ export default function Home() {
         </div>
       </section>
 
-      <a href="https://contate.me/jhowtech" target="_blank" className="fixed bottom-8 right-7 bg-green-500 hover:bg-green-600 text-white flex items-center justify-center w-12 h-12 rounded-full shadow-lg transition-colors duration-300">
-        <Image src="/images/icoWhatsapp.png" alt="WhatsApp" width={30} height={30} />
-      </a>
     </>
   );
 }
