@@ -5,10 +5,10 @@ import Projeto from './components/projeto';
 export default function Home() {
   return (
     <>
-      <div className="py-16 px-8 text-center lg:flex lg:justify-between lg:items-center bg-purple-700 rounded-2xl m-5">
+      <div className="py-16 px-8 text-center lg:flex lg:justify-between lg:items-center rounded-2xl m-5">
         <div className="lg:mr-12">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-4">Bem-vindo ao meu Portfólio</h1>
-          <p className="text-2xl lg:text-3xl font-bold">Jonathan Henrique - Programador Full-Stack Junior</p>
+          <h1 className="text-3xl lg:text-5xl font-bold mb-4 ">Developer Full-Stack NODE</h1>
+          <p className="text-2xl lg:text-5xl font-bold">Jonathan Henrique</p>
           <div className="mt-8 flex flex-wrap justify-center lg:justify-start space-x-3">
             
           </div>
@@ -21,8 +21,8 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="py-16 px-8 text-gray-600">
-        <h2 className="text-3xl font-bold mb-8 text-gray-100 text-center">Principais Projetos</h2>
+      <section className="py-16 px-8 text-gray-900">
+        <h2 className="text-3xl font-bold mb-8 text-center">Principais Projetos</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
           <div>
             <h3 className="text-3xl flex justify-center text-red-600 font-bold mb-2">XesqFlix</h3>
@@ -36,8 +36,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 px-8 text-gray-600">
-        <h2 className="text-3xl font-bold mb-8 text-gray-100 text-center">Minhas tecnologias</h2>
+      <section className="py-16 px-8 text-gray-900">
+        <h2 className="text-3xl font-bold mb-8 text-center">Minhas tecnologias</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8">
           <Tecnologia src="/images/next.png" nome="Next.JS" />
           <Tecnologia src="/images/api.png" nome="API REST" />
