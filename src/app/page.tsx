@@ -32,7 +32,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className="text-3xl flex justify-center text-amber-400 font-bold mb-2">Back-end API de PetShot</h3>
+            <h3 className="text-3xl flex justify-center text-center text-amber-400 font-bold mb-2">Back-end API de PetShot</h3>
             <Projeto src="/images/pet.png" git="https://github.com/jhowk14/API_pets_AUTH" caminho="/projetos/apirest" link="#" />
           </div>
         </div>
