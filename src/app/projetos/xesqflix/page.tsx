@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Xesq() {
   return (
     <>
-      <div className="flex justify-center space-x-5">
+      <div className="flex justify-center space-x-1">
       <p className="mt-10 inline-block bg-black hover:bg-gray-700 text-white font-bold py-5 px-12 rounded-lg text-2xl">
           <Link href="https://xesqflix-pi.vercel.app">Deploy vercel</Link>
         </p>
