@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link';
 import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from 'react-icons/fa';
 import Tecnologia from './components/tecnologia';
 import Projeto from './components/projeto';
@@ -41,7 +39,7 @@ export default function Home() {
       <section className="py-16 px-8 text-gray-600">
         <h2 className="text-3xl font-bold mb-8 text-gray-100 text-center">Minhas tecnologias</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8">
-          <Tecnologia src="/images/next.png" nome="Nest.JS" />
+          <Tecnologia src="/images/next.png" nome="Next.JS" />
           <Tecnologia src="/images/api.png" nome="API REST" />
           <Tecnologia src="/images/node.svg" nome="NODE" />
           <Tecnologia src="/images/type.png" nome="TypeScript" />

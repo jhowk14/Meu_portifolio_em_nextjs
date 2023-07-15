@@ -4,11 +4,11 @@ export default function Xesq() {
   return (
     <>
       <div className="flex justify-center space-x-5">
-  <p className="mt-10 inline-block bg-red-700 hover:bg-red-900 text-white font-bold py-5 px-12 rounded-lg text-2xl">
-    <Link href="https://xesqflix-pi.vercel.app">Link do Deploy</Link>
-  </p>
+      <p className="mt-10 inline-block bg-black hover:bg-gray-700 text-white font-bold py-5 px-12 rounded-lg text-2xl">
+          <Link href="https://xesqflix-pi.vercel.app">Deploy vercel</Link>
+        </p>
   <p className="mt-10 inline-block bg-black hover:bg-gray-700 text-white font-bold py-5 px-12 rounded-lg text-2xl">
-    <Link href="https://github.com/jhowk14/Xeqsflix_PI">GitHub</Link>
+          <Link href="https://github.com/jhowk14/API_pets_AUTH">GitHub</Link>
   </p>
 </div>
       <div className="flex justify-center">
