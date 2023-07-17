@@ -8,7 +8,7 @@ export default function Home() {
       <div className="py-16 px-8 text-center lg:flex lg:justify-between lg:items-center rounded-2xl m-5">
         <div className="lg:mr-12">
           <h1 className="text-3xl lg:text-5xl font-bold mb-4 ">Developer Full-Stack NODE</h1>
-          <p className="text-2xl lg:text-5xl font-bold">Jonathan Henrique</p>
+          <h2 className="text-2xl lg:text-5xl font-bold">Jonathan Henrique</h2>
           <div className="mt-8 flex flex-wrap justify-center lg:justify-start space-x-3">
             
           </div>
