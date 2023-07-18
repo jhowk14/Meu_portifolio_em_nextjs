@@ -9,7 +9,7 @@ export default function Xesq() {
         </p>
   <p className="mt-10 inline-block bg-black hover:bg-gray-700 text-white font-bold py-5 px-8 rounded-lg text-2xl">
           <Link href="https://github.com/jhowk14/API_pets_AUTH">GitHub</Link>
-  </p>
+  </p> 
 </div>
       <div className="flex justify-center">
       <div className="py-16 text-gray-200 px-8 w-full sm:w-10/12 md:w-8/12 lg:w-6/12 text-center bg-purple-700 rounded-2xl md:m-10">
