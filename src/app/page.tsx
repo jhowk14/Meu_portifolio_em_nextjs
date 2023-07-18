@@ -5,7 +5,7 @@ import Projeto from './components/projeto';
 export default function Home() {
   return (
     <>
-      <div className="py-16 px-8 text-center lg:flex lg:justify-between lg:items-center rounded-2xl m-5">
+      <div className="py-16 px-8 text-center bg-gray-900 lg:flex lg:justify-between lg:items-center md:rounded-2xl md:m-5">
         <div className="lg:mr-12">
           <h1 className="text-3xl lg:text-5xl font-bold mb-4 ">Developer Full-Stack NODE</h1>
           <h2 className="text-2xl lg:text-5xl font-bold">Jonathan Henrique</h2>

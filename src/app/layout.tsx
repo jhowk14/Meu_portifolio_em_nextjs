@@ -7,7 +7,7 @@ export default function RootLayout({ children }: {children: React.ReactNode}) {
   return (
     <html lang="en">
       
-      <body className="bg-gradient-to-r text-white from-purple-500 to-indigo-500">
+      <body className="bg-gradient-to-r text-white text-center from-sky-400 to-indigo-500">
         <Header/>
         {children}
         
