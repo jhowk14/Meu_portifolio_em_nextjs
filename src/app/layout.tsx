@@ -2,15 +2,13 @@ import Header from './components/Header'
 import './globals.css'
 import Image from 'next/image'
 import Footer from './components/Footer';
-import Head from 'next/head';
+import Head from './head';
 
 
 export default function RootLayout({ children }: {children: React.ReactNode}) {
   return (
-    <html lang="en">
-      <Head>
-        <title>Portifolio Jonathan Lourenço</title>
-      </Head>
+    <html lang="pt-br">
+      <Head/>
       <body className="bg-gradient-to-r text-white text-center from-sky-400 to-indigo-500">
         <Header/>
         {children}

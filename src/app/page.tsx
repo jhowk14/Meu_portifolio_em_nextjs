@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from 'react-icons/fa';
 import Tecnologia from './components/tecnologia';
 import Projeto from './components/projeto';
+import Head from 'next/head';
 
 export default function Home() {
   return (
