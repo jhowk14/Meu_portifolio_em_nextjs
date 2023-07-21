@@ -1,6 +1,6 @@
-import Head from 'next/head'
+
  
-function IndexPage() {
+export default function Head() {
   return (
     <>
       <title>Portifolio Jonathan Lourenço</title>
@@ -11,4 +11,3 @@ function IndexPage() {
   )
 }
  
-export default IndexPage
