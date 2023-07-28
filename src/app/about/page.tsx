@@ -1,7 +1,7 @@
 export default function About() {
     return (
       <div className="flex justify-center">
-         <div className="py-16 text-gray-200 px-8 w-full sm:w-10/12 md:w-8/12 lg:w-6/12 text-center bg-purple-700 rounded-2xl md:m-10">
+         <div className="py-16 text-gray-200 px-8 w-full sm:w-10/12 md:w-8/12 lg:w-6/12 text-center bg-green-700 rounded-2xl md:m-10">
           <p className="text-2xl leading-8 text-center sm:text-left sm:leading-loose md:text-center md:leading-12">
             <span className="text-white font-bold">
               Olá, meu nome é Jonathan Henrique Perozi Lourenço
