@@ -25,12 +25,12 @@ export default function Home() {
       <section className="py-16 px-8 text-gray-900">
         <h2 className="text-4xl font-bold mb-8 text-center text-white">Principais Projetos</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
-        <div className='py-16 px-8 text-center bg-indigo-800 bg-opacity-60 lg:flex lg:justify-between lg:items-center rounded-2xl md:m-5'>
+        <div className='py-16 px-8 text-center bg-green-700 bg-opacity-60 lg:flex lg:justify-between lg:items-center rounded-2xl md:m-5'>
           <h3 className="text-3xl flex justify-center text-red-600 font-bold mb-2">XesqFlix</h3>
           <Projeto src="/images/xesq.png" git="https://github.com/jhowk14/Xeqsflix_PI" caminho="/projetos/xesqflix" link="https://xesqflix-pi.vercel.app" />
         </div>
 
-        <div className='py-16 px-8 text-center bg-indigo-800 bg-opacity-60 lg:flex lg:justify-between lg:items-center rounded-2xl md:m-5'>
+        <div className='py-16 px-8 text-center bg-green-700 bg-opacity-60 lg:flex lg:justify-between lg:items-center rounded-2xl md:m-5'>
           <h3 className="text-3xl flex justify-center text-center text-amber-400 font-bold mb-2">Back-end API de PetShot</h3>
           <Projeto src="/images/pet.png" git="https://github.com/jhowk14/API_pets_AUTH" caminho="/projetos/apirest" link="#" />
         </div>
