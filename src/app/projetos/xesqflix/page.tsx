@@ -12,7 +12,7 @@ export default function Xesq() {
   </p> 
 </div>
       <div className="flex justify-center">
-      <div className="py-16 text-gray-200 px-8 w-full sm:w-10/12 md:w-8/12 lg:w-6/12 text-center bg-purple-700 rounded-2xl md:m-10">
+      <div className="py-16 text-gray-200 px-8 w-full sm:w-10/12 md:w-8/12 lg:w-6/12 text-center bg-green-700 rounded-2xl md:m-10">
           <p className="text-2xl leading-8 text-center sm:text-left sm:leading-loose md:text-center md:leading-12">
             Este projeto consiste no desenvolvimento de um site que visa oferecer funcionalidades semelhantes às encontradas no serviço Netflix. Utilizamos as tecnologias Next.js, MongoDB e NextAuth.js para construir o site. O Next.js é uma estrutura de desenvolvimento web que nos permite criar aplicativos web dinâmicos e escaláveis. O MongoDB é um banco de dados NoSQL altamente flexível e adequado para armazenar e gerenciar dados de forma eficiente. O NextAuth.js é uma biblioteca que nos auxilia na implementação de recursos avançados de autenticação e gerenciamento de usuários.
           </p>
