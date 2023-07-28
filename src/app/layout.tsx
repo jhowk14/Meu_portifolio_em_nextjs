@@ -9,7 +9,7 @@ export default function RootLayout({ children }: {children: React.ReactNode}) {
   return (
     <html lang="pt-br">
       <Head/>
-      <body className="bg-gradient-to-r text-white text-center from-sky-400 to-indigo-500">
+      <body className="bg-gradient-to-r text-white text-center from-white to-green-500">
         <Header/>
         {children}
         
